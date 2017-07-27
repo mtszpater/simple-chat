@@ -1,0 +1,7 @@
+<div *ngIf="post">
+    <b>{{post.user.name}}</b>
+    <span style='float: right;' class="badge">{{post.date | date:'shortTime'}}</span>
+    <div class="content">
+    {{post.content}}
+    </div>
+</div>
